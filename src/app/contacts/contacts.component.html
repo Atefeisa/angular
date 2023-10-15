@@ -1,0 +1,82 @@
+
+   
+  <div class="text-white pt-5">
+      <h2 class="fw-bold fs-1 text-center"  style=" color: #2c3e50;">PORTFOLIO COMPONENT</h2>
+      
+      <div class="d-flex justify-content-center align-items-center my-3">
+        <div class="line  me-3"></div>
+        <i class="fa-solid fa-star" style=" color: #2c3e50;"></i>
+        <div class="line ms-3"></div>
+      </div>
+    
+    </div>
+ 
+    <form class="container mt-5 w-50 m-auto">
+
+
+
+      <div class="my-4">
+
+
+        <div class="position-relative"  style="overflow: hidden;">  
+          <label for="" class="title">
+            <span  id="userName"> userName :</span>
+           </label>
+  
+        </div>
+
+        <input (keyup)="show()" id="name" placeholder="user name" class="form-control w-100 m-auto border-0 my-2 shadw-0 "  type="text"  />
+  
+      </div> 
+      
+      
+      
+      <div  class="my-4">
+
+        <div class="position-relative"  style="overflow: hidden;">  
+          <label for="" class="title">
+            <span  id="userAge"> userAge :</span>
+           </label>
+  
+        </div>
+        
+        <input (keyup)="show()" id="age" placeholder="user age" class="form-control w-100 m-auto border-0 my-2 shadw-0 "  type="text"  />
+  
+      </div>
+
+
+
+      <div  class="my-4">
+
+        <div class="position-relative"  style="overflow: hidden;">  
+          <label for="" class="title">
+            <span  id="userEmail"> userEmail :</span>
+           </label>
+  
+        </div>
+        
+
+        <input (keyup)="show()" id="email" placeholder="user email" class="form-control w-100 m-auto border-0 my-2 shadw-0 "  type="email"  />
+  
+      </div>
+
+
+      <div  class="my-4">
+
+        <div class="position-relative"  style="overflow: hidden;">  
+          <label for="" class="title">
+            <span  id="userPassword"> userPassword :</span>
+           </label>
+  
+        </div>
+
+
+        <input (keyup)="show()" id="password" placeholder="user password" class="form-control w-100 m-auto border-0 my-2 shadw-0 "  type="password"  />
+  
+      </div>
+
+
+            <button class="btn btn-success mb-5">send Message</button>
+    </form>
+  
+ 
